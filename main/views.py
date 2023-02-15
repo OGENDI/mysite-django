@@ -5,3 +5,7 @@ from django.http import HttpResponse
 
 def index(response):
     return HttpResponse('tech with derick')
+
+    
+def v1(response):
+    return HttpResponse('tech with ogendi')
